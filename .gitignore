@@ -3,3 +3,15 @@
 ################################################################################
 
 /src/AngularClient/bower_components
+/src/AngularClient/bin/Debug/netcoreapp1.1
+/src/AngularClient/node_modules
+/src/AngularClient/obj/Debug/netcoreapp1.1
+/src/XpressAccess.Identity.EFStore/obj/Debug/netstandard1.6
+/src/XpressAccess.Identity.Manager/bin/Debug/netstandard1.6
+/src/XpressAccess.Identity.Manager/obj/Debug/netstandard1.6
+/src/XpressAccess.Identity.Service/bin/Debug/netcoreapp1.1
+/src/XpressAccess.Identity.Service/obj/Debug/netcoreapp1.1
+/src/XpressAccess.Portal/bin/Debug/netcoreapp1.1
+/src/XpressAccess.Portal/obj/Debug/netcoreapp1.1
+/src/XpressAccess.WebData.Service/bin/Debug/netcoreapp1.1
+/src/XpressAccess.WebData.Service/obj/Debug/netcoreapp1.1

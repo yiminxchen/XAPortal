@@ -1,0 +1,5 @@
+add-migration InitialPersistedGrantDbMigration -c PersistedGrantDbContext -OutputDir Data/Migrations/PersistedGrantDb
+
+add-migration InitialConfigurationDbMigration -c ConfigurationDbContext -OutputDir Data/Migrations/ConfigurationDb
+
+add-migration InitialIdentityMigration -c IdentityDbContext -OutputDir Data/Migrations/IdentityDb

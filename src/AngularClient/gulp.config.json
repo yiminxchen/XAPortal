@@ -1,0 +1,22 @@
+﻿{
+  "src": "./app/",
+  "root": "./wwwroot/",
+  "ignore": "wwwroot",
+  "htmltemplates": [
+    "./app/**/!(index)*.html"
+  ],
+  "vendorjs": [
+    "./bower_components/angular/angular.js",
+    "./bower_components/angular-ui-router/release/angular-ui-router.js",
+    "./bower_components/angular-local-storage/dist/angular-local-storage.js",
+    "./bower_components/jquery/dist/jquery.js",
+    "./bower_components/bootstrap/dist/js/bootstrap.js",
+    "./bower_components/angular-spinner/dist/angular-spinner.js"
+  ],
+  "vendorcss": [
+    "./bower_components/bootstrap/dist/css/bootstrap.css"
+  ],
+  "appjs": [
+    "./app/**/*.js"
+  ]
+}

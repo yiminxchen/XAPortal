@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Xpress Access Management Portal Home";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+    <div class="col-md-4">
+        <h2>Login</h2>
+        <p><a asp-controller="Account" asp-action="Login" class="btn btn-info" role="button">Login &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Sign Up</h2>
+        <p><a asp-controller="Account" asp-action="Register" class="btn btn-info" role="button">Sign Up &raquo;</a></p>
+    </div>
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+
+

@@ -1,0 +1,20 @@
+﻿<h2>@ViewData["Title"]</h2>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h3>User claims for @ViewData["Email"] with Role:@ViewData["Role"]</h3>
+
+    <dl>
+        @foreach (var claim in User.Claims)
+        {
+            <dt>@claim.Type</dt>
+            <dd>@claim.Value</dd>
+
+        }
+    </dl>
+    <dt>access token</dt>
+    <dd>@await ViewContext.HttpContext.Authentication.GetTokenAsync("access_token")</dd>
+
+    <dt>refresh token</dt>
+    <dd>@await ViewContext.HttpContext.Authentication.GetTokenAsync("refresh_token")</dd>
+}
